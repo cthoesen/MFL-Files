@@ -1,5 +1,5 @@
-<!-- SVG Sprite -->
-<svg width="50px" height="50px" >
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <symbol id="Icon-AddDrop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 77.36">
     <defs></defs>
      <g id="Player">
@@ -23,7 +23,4 @@
   </symbol>
   
 </svg>
-<!-- SVG References -->
-<svg class="svg-icon icon-adddrop" viewBox="0 0 72 77.36">
-  <use xlink:href="#Icon-AddDrop"></use>
-</svg>
+
