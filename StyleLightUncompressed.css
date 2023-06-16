@@ -1158,6 +1158,12 @@ body.chat_popup .banner-container-wrap {
 
 /*IMAGE ICONS LINKS COLORING*/
 
+.svgSprite {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
 .svg-iconlink a,
 .svg-iconlink:active,
 .svg-iconlink:link,
@@ -1182,13 +1188,14 @@ body.chat_popup .banner-container-wrap {
 
 .svg-icon:hover,
 .svg-iconlink:hover .svg-icon {
+  filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
   fill: var(--main-two, var(--main, #080e25));
   color: var(--accent, #B82601)
 }
 
 .svg-icon,
 .svg-iconlink {
-  transition: all 0.6s ease;
+  transition: all 3s ease;
 }
 
 
