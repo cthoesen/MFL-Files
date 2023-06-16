@@ -991,14 +991,13 @@ div[id*="usmg_ad"] {
   display: none
 }
 
-body.chat_popup,
 #container-wrap,
 #MFLBoxWrapper,
 #tabmenu-wrap,
 .ticker-wrapper {
   visibility: hidden
 }
-
+body.chat_popup #container-wrap{visibility: visible }
 #body_home .homepagemessage {
   display: none
 }
@@ -2888,7 +2887,11 @@ li.player-search a input,
 }
 
 #league_chat .fa-comments {
-  margin-top: -0.313rem
+    margin-top: -0.313rem;
+  color:#fff!important
+}
+#league_chat .fa-comments:hover {
+      color:#ddd!important
 }
 
 
@@ -10013,8 +10016,15 @@ td.mondayLoser .monday_proj_total {
   font-size: 0.7rem;
   border-radius: unset;
 }
-
-
+.edit-wrapper input + b,
+.edit-wrapper input + b + br{display:none}
+.edit-wrapper input[name="LABEL"]{border:0}
+.edit-wrapper input[name="LABEL"]:focus{
+    outline: none;
+}
+.edit-wrapper table tr td:first-child {
+  text-align: right;
+}
 
 
 /***************************************/
